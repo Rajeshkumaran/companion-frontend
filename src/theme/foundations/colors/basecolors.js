@@ -1,42 +1,34 @@
-export default {
-  // Gray
-  gray1: '#585858',
-  gray2: '#3C3C3C',
-  gray3: '#D9D9D9',
-  gray4: '#AFAFAF',
-  gray5: '#EAEAEA',
-  gray6: '#94A2AE',
-  gray7: '#F0F2F5',
-  gray8: '#5A5A5A',
-  gray9: '#ECECEE',
-  gray10: '#9c9c9c',
-  gray11: '#373A43',
-  gray12: '#242424',
-  gray13: '#242424',
-  gray14: '#f5f5f5',
-  gray15: '#687480',
-  gray16: '#11100F',
+const baseColors = {
+  gray1: '#e2e2e2',
+  gray2: '#E5EAF2',
+  gray3: '#DAE2ED',
+  gray4: '#C7D0DD',
+  gray5: '#B0B8C4',
+  gray6: '#9DA8B7',
+  gray7: '#6B7A90',
+  gray8: '#434D5B',
+  gray9: '#303740',
+  gray10: '#1C2025',
+  gray11: '#F3F6F9',
+
   // Transparent
 
   transparent1: 'rgba(145, 177, 205, 0.3)',
 
-  // Blue
-  blue1: '#E4F0FA',
-  blue2: '#0288D1',
-  blue3: '#CBEDFF',
-  blue4: '#0288D1',
-  blue5: '#DEF3FF',
-  blue6: '#1A81FF',
-  blue7: '#0060FF',
-  blue8: '#DFEBFF',
-  blue9: '#1337C9',
-  blue10: '#1731B3',
-  blue11: '#41A4E5',
-  blue12: '#eef3f8',
+  blue1: '#F0F7FF',
+  blue2: '#C2E0FF',
+  blue3: '#99CCF3',
+  blue4: '#66B2FF',
+  blue5: '#3399FF',
+  blue6: '#007FFF',
+  blue7: '#0072E6',
+  blue8: '#0059B3',
+  blue9: '#004C99',
+  blue10: '#003A75',
 
   // Green
-  green1: '#73FF98',
-  green2: '#5EC65A',
+  green1: '#118C4F',
+  green2: '#46ca8e',
   green3: '#32F17B',
   green4: '#1BE177',
   green5: '#09CA67',
@@ -56,14 +48,8 @@ export default {
   orange8: '#754400',
 
   // Red
-  red1: '#EB5757',
-  red2: '#FE8091',
-  red3: '#C50F1F',
-  red4: '#D93F21',
-  red5: '#E12024',
-  red6: '#CB1213',
-  red7: '#B00B0B',
-  red8: '#FF7759',
+  cherryRed: '#DF4661',
+  red1: '#e63b39',
 
   // Purple
   purple1: '#EDDEFF',
@@ -78,8 +64,7 @@ export default {
   purple11: '#4F52B2',
 
   // Yellow
-  yellow1: '#FDC526',
-  yellow2: '#EAA300',
+  yellow1: '#FFBF00',
 
   // Brand theme
   brand0: '#ffffff', /// primary
@@ -91,6 +76,8 @@ export default {
   brand6: '#2b4793', /// Active
 
   white: '#ffffff',
-  black: '#000000',
+  black: '#131313',
   videoBg: '#272727',
 };
+
+export default baseColors;

@@ -21,7 +21,7 @@ const getStyles = (theme) =>
     },
     secondaryButton: {
       color: theme.palette.black,
-      backgroundColor: theme.palette.gray1,
+      backgroundColor: theme.palette.white,
       border: `2px solid ${theme.palette.black}`,
       padding: theme.spacing.s5,
       borderRadius: '6px',

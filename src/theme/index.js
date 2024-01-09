@@ -19,6 +19,7 @@ const t = {
   spacing,
   sizes,
   zIndex,
+  defaultFontStyle: { fontFamily: 'Montserrat' },
 };
 
 const theme = createTheme(t);

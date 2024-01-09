@@ -83,6 +83,7 @@ const AddTransaction = ({ onCancel }) => {
                     setValue('name', newValue, { shouldValidate: true });
                   }}
                   errorMessage={fieldError?.message}
+                  className='w-2'
                 />
               );
             }}
@@ -208,7 +209,15 @@ const AddTransaction = ({ onCancel }) => {
             }}
           />
         </Stack>
-        <Stack horizontal tokens={{ childrenGap: 8 }}>
+        <Stack
+          horizontal
+          tokens={{ childrenGap: 8 }}
+          styles={{
+            root: {
+              width: 'auto !important',
+            },
+          }}
+        >
           <Button onClick={onSave} className='w-2'>
             Save
           </Button>
